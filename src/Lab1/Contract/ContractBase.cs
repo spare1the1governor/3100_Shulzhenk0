@@ -13,7 +13,7 @@ public abstract class ContractBase
     private const int FirstCycle = 1;
 
     // содержит минерал и его цену за единицу
-    public Dictionary<Mineral, int> PriceList { get; } // !!!!!
+    public Dictionary<Mineral, int> PriceList { get; } // !!!!! отдельная сущность
 
     public string ContractType { get; protected set; }
 
@@ -50,7 +50,7 @@ public abstract class ContractBase
 
         foreach (Ship ship in Fleet.Ships)
         {
-            if (ship.GetProductionForCycle(FirstCycle) > 0)
+            if (ship.GetProductionForCycle(FirstCycle) > 0) // убрать посчет ЦИКЛОВ
             {
                 anyShipMines = true;
                 break;

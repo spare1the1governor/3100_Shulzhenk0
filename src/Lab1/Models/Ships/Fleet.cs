@@ -79,7 +79,7 @@ public class Fleet
 }
 
 // Один цикл добычи. Возвращает объём, добытый всем флотом за цикл
-    private decimal RunSingleCycle(ICargoStrategy strategy)
+    private decimal RunSingleCycle(ICargoStrategy strategy) // cnhfntub. hfpvtotybz ye'yj dsyjcbnm yf ehjdtym akjnf 
     {
         decimal total = 0;
 

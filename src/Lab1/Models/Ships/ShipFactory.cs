@@ -1,6 +1,6 @@
 namespace Itmo.ObjectOrientedProgramming.Lab1.Models.Ships;
 
-// Pure Fabrication //
+// Pure Fabrication "выдуманная сущность, не отражающая каких-либо частей моделируемых процессов"//
 public class ShipFactory
 {
     public static Ship CreateShip(string shipName)

@@ -6,7 +6,7 @@ namespace Itmo.ObjectOrientedProgramming.Lab1;
 
 public static class Program
 {
-    public static CalculationResult RunProgram(ContractBase contract, ICargoStrategy strategy, decimal stationTax)
+    public static CalculationResult RunProgram(ContractBase contract, ICargoStrategy strategy, decimal stationTax) // принимать станцию
     {
         ValidityResponse validity = contract.Validate();
         if (!validity.IsValid)

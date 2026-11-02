@@ -7,7 +7,7 @@ using Itmo.ObjectOrientedProgramming.Lab1.Models.Ships;
 namespace Itmo.ObjectOrientedProgramming.Lab1;
 
 /// <summary>
-/// Например, класс реализующий процесс расчётов.
+/// возможно спорное решение в одном классе и "прокручивать" процесс добычи и производить подсчеты, просто хотелось учитывать принцип Information Expert
 /// </summary>
 public class Calculator
 {
